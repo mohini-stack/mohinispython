@@ -1,0 +1,16 @@
+def my_gen():
+    print("Hello 0")
+    a=5
+    yield a
+    a=10
+    print("Hello 1")
+    yield 2
+    print("Hello 2")
+    yield 3
+    print("Hello 3")
+
+for i in my_gen():
+    print("Lets see")
+    print(i)
+
+    print("Bye")

@@ -1,0 +1,19 @@
+import sys
+def first(iterable):
+    iterator=iter(iterable)
+
+    length=len(iterable)
+    try:
+        for i in range(1,length):
+                   print(next(iterator))
+                   print("i={}".format(i))
+    except StopIteration:
+        raise ValueError("Iterator is empty")
+list=["Hello","Chiku"]
+first(list)
+
+
+
+
+
+

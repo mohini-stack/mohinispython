@@ -1,0 +1,33 @@
+import time
+import datetime
+from datetime import datetime
+from time import mktime
+mydate=['30/May/2019:00:59:06','30/May/2019:09:59:06']
+start_time=time.strptime(mydate[0],"%d/%b/%Y:%H:%M:%S")
+end_time=time.strptime(mydate[1],"%d/%b/%Y:%H:%M:%S")
+print(start_time)
+print(end_time)
+
+
+now=list(start_time)
+if (start_time[0]==end_time[0]) & (start_time[1]==end_time[1]) & (start_time[2]==end_time[2]):
+    for hour in range(start_time[3],end_time[3],1):
+
+
+        #print(now)
+        date_tp=tuple(now)
+        #print(date_tp)
+        dt = datetime.fromtimestamp(mktime(date_tp))
+        print(dt.strftime("%d/%b/%Y:%H:%M:%S"))
+
+        if (now[4] == 59):
+            print(now[3])
+            print(now[4])
+            now[3] = now[3] + 1
+            now[4] = 0
+        for minutes in range(now[4],59,1):
+            now[4]=now[4]+1
+
+
+
+

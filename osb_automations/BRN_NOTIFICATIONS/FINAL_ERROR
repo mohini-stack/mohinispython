@@ -1,0 +1,9 @@
+                                                                                                                                                                                                        ,         3,      9903
+DataBase Error                                                                                                                                                                                          ,         1,      9903
+Service Callout Failure soapenv:Server!!! expServiceNotFound(amdocs.uams.sessions.interfaces.api.ASM3LoginServices.ASM3__login)500                                                                      ,       111,      9903
+OSB Internal Error Tried all: 1 addresses, but could not connect over HTTPS to server: abp.app.prod.equinox.vf-ie.internal.vodafone.com port: 34601                                                     ,       640,      9903
+OSB Internal Error Read time out after 10000 millis                                                                                                                                                     ,        49,      9903
+Service Callout Failure soapenv:ServerAn internal system error occurred. If the problem persist, please contact the server administrator (uuid: 54740a9b-e831-405d-aa67-dc20a83416c9)500                ,         1,      9903
+No value could be bound to variable: MSISDN                                                                                                                                                             ,       103,      9903
+OSB Service Callout action received an error response                                                                                                                                                   ,      1573,      9903
+DELIVERY_TO_GATEWAY_FAILURE,    141598

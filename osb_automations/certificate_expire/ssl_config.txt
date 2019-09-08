@@ -1,0 +1,2 @@
+/opt/SP/home/test/Final/mohini/file/certs/esb.jks
+/opt/SP/home/test/Final/mohini/file/certs/pares-int.mdv.mmo.de.crt

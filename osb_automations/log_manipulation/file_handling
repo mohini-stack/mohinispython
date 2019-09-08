@@ -1,0 +1,14 @@
+import os
+import glob
+import re
+LOG_DIR="C:/Users/UpasaniM2/Documents/LOG_DIR"
+os.chdir(LOG_DIR)
+files=os.listdir(LOG_DIR)
+print(files)
+pattern=glob.glob("*.txt")
+print(pattern)
+service="service"
+
+for i in range(0,len(pattern)):
+    for line in open(pattern[i]).readlines():
+        os.system("grep "+service+" "+LOG_DIR+"/"+pattern[i])

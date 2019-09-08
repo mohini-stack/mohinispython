@@ -1,0 +1,5 @@
+**kwargs is used in function defination in python , when we want to pass = seperated key value pair dictionary to a function as argument.
+def myCost(**kwargs):
+    for key,value in kwargs.items():
+        print("print cost of %s == %s"%(key,value*key))
+  myCost(10=100,2=300,3=900)
